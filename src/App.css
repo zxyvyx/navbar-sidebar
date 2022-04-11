@@ -28,6 +28,36 @@
   color: #61dafb;
 }
 
+.list-style-none {
+  list-style: none;
+}
+
+.background-primary {
+  background-color: #d1d1d1;
+}
+
+.color-primary {
+  color: #d1d1d1;
+}
+
+.side-width {
+  width: 200px;
+}
+
+.list:hover {
+  background-color: #d1d1d1;
+  border-radius: 12px;
+}
+
+.full-screen {
+  min-height: 100vh;
+}
+
+.side-inactive {
+  display: none;
+  width: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
