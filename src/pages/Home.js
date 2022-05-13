@@ -10,16 +10,16 @@ const Home = () => {
   }
 
   return (
-		<>
-			<Navbar toggleSidebar={toggleSidebar} />
-			<div className="container-fluid d-flex px-2 full-screen">
-				<Sidebar show={sidebar} />
+    <>
+      <Navbar toggleSidebar={toggleSidebar} />
+      <div className="container-fluid d-flex px-2 full-screen">
+        <Sidebar show={sidebar} />
         {/*  */}
         <div className="mt-5 pt-5">
           hhh
         </div>
-			</div>
-		</>
+      </div>
+    </>
   );
 }
 
